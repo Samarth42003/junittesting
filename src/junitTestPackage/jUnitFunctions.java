@@ -5,9 +5,6 @@ public class jUnitFunctions {
 		return num1+num2;
 	}
 	public String addtwostring(String s1, String s2) {
-		return s1+s2;
-		
+		return s1+s2;	
 	}
-	
-
 }

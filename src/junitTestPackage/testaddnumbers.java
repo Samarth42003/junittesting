@@ -1,4 +1,4 @@
-package junitTestPackage;
+package junitTestPackage;                      
 
 import static org.junit.Assert.*;
 
@@ -10,8 +10,6 @@ public class testaddnumbers {
 	public void test() {
 		jUnitFunctions junit = new jUnitFunctions();
 		int result = junit.addtwonumbers(100, 200); 
-		assertEquals(300,result);
-		
+		assertEquals(300,result);		
 	}
-
 }

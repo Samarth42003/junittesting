@@ -9,8 +9,7 @@ public class testAddStrings {
 	@Test
 	public void test() {
 		jUnitFunctions junitString = new jUnitFunctions();
-		String result = junitString.addtwostring("Rudransh ","Singh Tomar"); 
-		assertEquals("Rudransh Singh Tomar",result);
+		String result = junitString.addtwostring("SAMARTH ","BHATT"); 
+		assertEquals("SAMARTH BHATT",result);
 	}
-
 }
